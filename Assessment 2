@@ -1,0 +1,5 @@
+#!/bin/bash
+useradd userz
+echo "userz:password" | chpasswd 
+usermod -aG wheel userz
+
